@@ -1,0 +1,1 @@
+{ "name": "context-bar", "version": "0.9.2", "description": "プロンプト上部にコンテキスト使用率と週次リミットのバーを表示し、ターン完了行にコンテキスト増分・コスト・入出力トークン数を添える。compact 後は要約をペインで表示できる", "types": "./types/index.d.ts" }

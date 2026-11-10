@@ -1,0 +1,8 @@
+{
+  "name": "claude-mods",
+  "owner": { "name": "Zach" },
+  "plugins": [
+    { "name": "context-bar", "source": "./context-bar", "description": "Context usage and weekly-limit bar above the prompt, plus per-turn cost and tokens" },
+    { "name": "compact-pickup", "source": "./compact-pickup", "description": "/compact-pickup: compact the conversation, then run /pickup" }
+  ]
+}
