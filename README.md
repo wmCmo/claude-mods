@@ -12,16 +12,18 @@ Two small Claude Code mods.
 In a terminal session, type at the prompt:
 
 ```
-/plugin install context-bar --marketplace wmCmo/claude-mods
-/plugin install compact-pickup --marketplace wmCmo/claude-mods
+/plugin marketplace add wmCmo/claude-mods
+/plugin install context-bar@claude-mods
+/plugin install compact-pickup@claude-mods
 ```
 
-Answer `y` to add the marketplace, then choose a scope (user scope = every session).
+Choose a scope when asked (user scope = every session).
 
 From a shell instead:
 
 ```
-claude plugin install context-bar --marketplace wmCmo/claude-mods
+claude plugin marketplace add wmCmo/claude-mods
+claude plugin install context-bar@claude-mods
 ```
 
 In the desktop app, where `/plugin` does not run: click **+** next to the prompt box, then **Plugins**, **Add marketplace** with `wmCmo/claude-mods`, then **Add plugin**.
